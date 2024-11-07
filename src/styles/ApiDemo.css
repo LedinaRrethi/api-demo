@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap : 15px;
+    margin: 20px 0;
+}
+
+ button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+} 
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+#booksButton {
+    background-color: #4CAF50;
+}
+
+#reposButton {
+    background-color: #2196F3;
+}
+
+#reposButton:hover {
+    background-color: #1e88e5;
+}
+
+div {
+    text-align: center;
+}
